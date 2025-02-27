@@ -50,9 +50,9 @@ export function LogDetailPanel({ log, onClose, isOpen }: LogDetailPanelProps) {
     });
   };
 
-  const formatTime = (ms: number) => {
-    return `${ms}ms`;
-  };
+  // const formatTime = (ms: number) => {
+  //   return `${ms}ms`;
+  // };
 
   return (
     <div className={cn(
